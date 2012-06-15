@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'MyProject' target in the 'MyProject' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define XML_ADDRESS  @"https://ilove.qnetau.com/event_data.xml"
+//#define XML_ADDRESS  @"http://192.168.1.130/ILoveGC/event_data.xml"
